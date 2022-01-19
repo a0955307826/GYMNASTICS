@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
+        <link href="../css/home/NAVBAR.CSS" rel="stylesheet">
+        <link href="../css/home/banner.css" rel="stylesheet">
+        <link href="../css/home/news.css" rel="stylesheet">
+        <link href="../css/home/about.css" rel="stylesheet">
+        <link href="../css/home/athletes.css" rel="stylesheet">
+        <link href="../css/home/MAG.css" rel="stylesheet">
+        <link href="../css/home/wag.css" rel="stylesheet">
+        <link href="../css/home/footer.css" rel="stylesheet">
+        <link href="../css/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="../hambaurger/hamburger.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <title>GYMNASTICS</title>
+    </head>
+    <body>
+        <!-- 導覽列 -->
+        <header class="header">
+            <input type="checkbox" name="" id="menu">
+            <nav class="nav_list">
+                <a href="./home.html"><img src="../photo/LOGO.png" alt="無法顯示"></a>
+                <label for="menu" class="menu_btn">
+                    <div class="line_top"></div>
+                    <div class="line_middle"></div>
+                    <div class="line_bottom"></div>
+                </label>
+                <ul class="nav_bar">
+                    <li><a href="./news.html" class="news">NEWS</a></li>
+                    <li><a href="./about.html" class="about">ABOUT</a></li>
+                    <li><a href="./ATHLETES.html" class="athlete">ATHLETES</a></li>
+                    <li><a href="./MAG.html" class="mag">MAG</a></li>
+                    <li><a href="./WAG.html" class="wag">WAG</a></li>
+                    <li><a href="./shop.html" class="shop">SHOP</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+
+            <!-- 大圖banner -->
+            <section class="banner">
+                <div class="banner_slider">
+                    <img src="../photo/709.jpg" alt="無法顯示" class="banner_img">
+                    <img src="../photo/715.jpg" alt="無法顯示" class="banner_img">
+                    <img src="../photo/722.jpg" alt="無法顯示" class="banner_img">
+
+                    <div onclick="slide_slide(-1)" class="btn_item left">
+                        <p class="fas fa-angle-left"></p>
+                    </div>
+                    <div onclick="slide_slide(1)" class="btn_item  right">
+                        <p class="fas fa-angle-right"></p>
+                    </div>
+
+                    <div class="btn">
+                        <span class="btn_line" onclick="btn_slide(1)"></span>
+                        <span class="btn_line" onclick="btn_slide(2)"></span>
+                        <span class="btn_line" onclick="btn_slide(3)"></span>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- NEWS -->
+            <section class="news">
+                <h1>NEWS</h1>
+                <a href="./news.html"><p class="view">more</p></a>
+                <div class="news_container">
+                    <div class="item"><a href="../html/newcontent.html">
+                            <img src="../photo/2744574.jpg" alt="無法顯示">
+                            <div class="txt">
+                                <h2>世大運競技體操女子隊伍感受觀眾力量盼增強實力</h2>
+                                <p class="date">2021.10.15</p>
+                                <p class="word_news">世界大學運動會、大學生運動會、世大運，是一項專供大學生運動員參加的青會...</p>
+                            </div>
+                    </div></a>
+                    <div class="item"><a href="../html/newcontent.html">
+                            <img src="../photo/POMMEL HORSE.png" alt="無法顯示">
+                            <div class="txt">
+                                <h2>SUPERSTAR體表會體操力求剛柔並濟展現力與美</h2>
+                                <p class="date">2021.10.15</p>
+                                <p class="word_news">SUPERSTAR體育表演會3日晚間在台北小巨蛋登場，台師大競技體操隊及小師大...</p>
+                            </div>
+                    </div></a>
+                    <div class="item"><a href="../html/newcontent.html">
+                            <img src="../photo/IMG_9003.png" alt="無法顯示">
+                            <div class="txt">
+                                    <h2>SUPERSTAR體表會體操力求剛柔並濟展現力與美</h2>
+                                    <p class="date">2021.10.15</p>
+                                    <p class="word_news">SUPERSTAR體育表演會3日晚間在台北小巨蛋登場，台師大競技體操隊及小師大...</p>
+                            </div>
+                    </div></a>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about">
+                <div class="word_background">
+                    <div class="tag"></div>
+                    <div class="circle"></div>
+                    <a href="./about.html">
+                        <h1 class="about_title">ABOUT</h1>
+                        <p class="about_word">體操是追求創新、穩定、完美、將潛能發揮到極致，挑戰自我的運動項目。</p>
+                        <div class="button_about">more</div>
+                    </a>
+                </div>
+                <div class="about_banner"></div>
+            </section>
+
+            <!-- ATHLETES -->
+            <section class="athletes">
+                <h1 class="h1_athletes_title">ATHLETES</h1>
+                <a href="./ATHLETES.html"><p class="view">more</p></a>
+                
+                <div class="athletes_container">
+                    <div class="card">
+                            <div class="imgbx">
+                                <a href="./athlete_content.html">
+                                    <img src="../photo/athlete/background/img12.png" alt="無法顯示" class="picture1">
+                                    <div class="athletes_word2">
+                                        <h2 class="h2_title2">李<br>智<br>凱<br></h2>
+                                        <p>鞍<br>馬<br>王<br>子</p>
+                                    </div>
+                                </a>
+                            </div>
+                                <div class="athletes_word">
+                                    <h2 class="h2_title">李智凱<span>鞍馬王子</span></h2>
+                                    <h2 class="h2_athlete">MEN ATHLETE</h2>
+                                </div>
+                            <div class="banner"></div>
+                    </div>
+                    
+                    <div class="card">
+                            <div class="imgbx">
+                                <a href="./athlete_content.html">
+                                    <img src="../photo/athlete/background/img16.png" alt="無法顯示" class="picture2">
+                                    <div class="athletes_word2">
+                                        <h2 class="h2_title2">唐<br>嘉<br>鴻<br></h2>
+                                        <p>世<br>界<br>貓<br>王</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="athletes_word">
+                                <h2 class="h2_title">唐嘉鴻<span>世界貓王</span></h2>
+                                <h2 class="h2_athlete">MEN ATHLETE</h2>
+                            </div>
+                            <div class="banner"></div>
+                            
+                    </div>
+                    
+                    <div class="card">
+                        
+                            <div class="imgbx">
+                                <a href="./athlete_content.html">
+                                    <img src="../photo/athlete/background/img14.png" alt="無法顯示" class="picture3">
+                                    <div class="athletes_word2">
+                                        <h2 class="h2_title2">麥<br>劉<br>湘<br>涵</h2>
+                                        <p>體<br>操<br>精<br>靈</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="athletes_word">
+                                <h2 class="h2_title">麥劉湘涵<span>體操精靈</span></h2>
+                                <h2 class="h2_athlete">WOMEN ATHLETE</h2>
+                            </div>
+                            <div class="banner"></div>
+                    </div>
+                    
+                    <div class="card">
+                            <div class="imgbx">
+                                <a href="./athlete_content.html">
+                                    <img src="../photo/athlete/background/img1.png" alt="無法顯示" class="picture4">
+                                    <div class="athletes_word2">
+                                        <h2 class="h2_title2">丁<br>華<br>恬</h2>
+                                        <p>體<br>操<br>精<br>靈</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="banner"></div>
+                            <div class="athletes_word">
+                                <h2 class="h2_title">丁華恬<span>體操精靈</span></h2>
+                                <h2 class="h2_athlete">WOMEN ATHLETE</h2>
+                            </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- MAG -->
+            <section class= "mag">
+                <div class="big_circle">
+                    <div class="mag_word">
+                        <h1 class="mag_h1">MAG</h1>
+                        <p class="mag_p">男子體操著重於力量的展現。比賽有地板、鞍馬、吊環、跳馬、雙槓、單槓。</p>
+                        <a href="./MAG.html"><div class="mag_button">more</div></a>
+                    </div>
+                    <a href="./MAG.html"><div class="mag_fx">
+                        <div class="fx_word">
+                                <p class="fx_title">地板</p>
+                                <p class="fx">Floor</p>
+                            </div>
+                        </div>
+                        <div class="mag_ph">
+                            <div class="ph_word">
+                                <p class="ph_title">鞍馬</p>
+                                <p class="ph">Pommel Horse</p>
+                            </div>
+                        </div>
+                        <div class="mag_r">
+                            <div class="r_word">
+                                <p class="r_title">吊環</p>
+                                <p class="r">Ring</p>
+                            </div>
+                        </div>
+                        <div class="mag_vt">
+                            <div class="vt_word">
+                                <p class="vt_title">跳馬</p>
+                                <p class="vt">Vault</p>
+                            </div>
+                        </div>
+                        <div class="mag_pb">
+                            <div class="pb_word">
+                                <p class="pb_title">雙槓</p>
+                                <p class="pb">Parallel bars</p>
+                            </div>
+                        </div>
+                        <div class="mag_hb">
+                            <div class="hb_word">
+                                <p class="hb_title">單槓</p>
+                                <p class="hb">Horizontal bar</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 992px -->
+                <div class="mag_container">
+                    <div class="mag_word">
+                        <h1 class="mag_item">MAG</h1>
+                        <p class="mag_p_item">男子體操著重於力量的展現。比賽有地板、鞍馬、吊環、跳馬、雙槓、單槓。</p>
+                    </div>  
+                    <div class="img_item">
+                        <div class="photo fx_img">
+                            <div class="tag">
+                                <p class="word">地板</p>
+                                <p class="eng">Floor</p>
+                            </div>
+                        </div>
+                        <div class="photo ph_img">
+                            <div class="tag">
+                                <p class="word">鞍馬</p>
+                                <p class="eng">Pommel Horse</p>
+                            </div>
+                        </div>
+                        <div class="photo sr_img">
+                            <div class="tag">
+                                <p class="word">吊環</p>
+                                <p class="eng">Ring</p>
+                            </div>
+                        </div>
+                        <div class="photo vt_img">
+                            <div class="tag">
+                                <p class="word">跳馬</p>
+                                <p class="eng">Vault</p>
+                            </div>
+                        </div>
+                        <div class="photo pb_img">
+                            <div class="tag">
+                                <p class="word">雙槓</p>
+                                <p class="eng">Parallel bars</p>
+                            </div>
+                        </div>
+                        <div class="photo hb_img">
+                            <div class="tag">
+                                <p class="word">單槓</p>
+                                <p class="eng">Horizontal bar</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div onclick="slide_slide_mag(-1)" class="btn_item left">
+                        <p class="fas fa-angle-left"></p>
+                    </div>
+                    <div onclick="slide_slide_mag(1)" class="btn_item  right">
+                        <p class="fas fa-angle-right"></p>
+                    </div>
+                    <div class="mag_btn">
+                        <span class="btn_line" onclick="btn_slide_mag(1)"></span>
+                        <span class="btn_line" onclick="btn_slide_mag(2)"></span>
+                        <span class="btn_line" onclick="btn_slide_mag(3)"></span>
+                        <span class="btn_line" onclick="btn_slide_mag(4)"></span>
+                        <span class="btn_line" onclick="btn_slide_mag(5)"></span>
+                        <span class="btn_line" onclick="btn_slide_mag(6)"></span>
+                    </div>
+                    <a href="./MAG.html"><div class="button_item">more</div></a>
+                </div>
+            </section>
+
+            <!-- WAG -->
+            <section class="wag">
+                <div class="left_block"></div>
+                <div class="wag_word">
+                    <h1 class="wag_h1">WAG</h1>
+                    <p class="wag_p">女子體操著重於平衡感、協調性與藝術性。比賽有跳馬、高低槓、平衡木、地板。</p>
+                    <a href="./WAG.html">
+                        <div class="wag_button">more</div>
+                    </a>
+                </div>
+                <div class="wag_item">
+                    <a href="./WAG.html">
+                        <div class="wag_vt">
+                            <h2>跳馬Vault</h2>
+                        </div>
+                    </a>
+                    <a href="./WAG.html">
+                        <div class="wag_ub">
+                            <h2>高低槓Uneven bars</h2>
+                        </div>
+                    </a>
+                    <a href="./WAG.html">
+                        <div class="wag_bb">
+                            <h2>平衡木Balance beam</h2>
+                        </div>
+                    </a>
+                    <a href="./WAG.html">
+                        <div class="wag_fx">
+                            <h2>地板Floor</h2>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- mag 992px -->
+            <section class="wag_item">
+                <div class="wag_word_item">
+                    <h1 class="wag_h1">WAG</h1>
+                    <p class="wag_p">女子體操著重於平衡感、協調性與藝術性。比賽有跳馬、高低槓、平衡木、地板。</p>
+                </div>
+                <div class="wag_image">
+                        <div class="wag_img wag_img_vt">
+                            <h2>跳馬<span>Vault</span></h2>
+                        </div>
+                        <div class="wag_img wag_img_ub">
+                            <h2>高低槓<span>Uneven bars</span></h2>
+                        </div>
+                        <div class="wag_img wag_img_bb">
+                            <h2>平衡木<span>Balance beam</span></h2>
+                        </div>
+                        <div class="wag_img wag_img_fx">
+                            <h2>地板<span>Floor</span></h2>
+                        </div>
+                </div>
+                <a href="./WAG.html">
+                    <div class="wag_button">more</div>
+                </a>
+                
+            </section>
+        </main>
+
+        <div class="top">
+            <p class="top_home">TOP</p>
+        </div>
+        
+        <!-- footer -->
+        <footer class="footer">
+            <a href="./home.html"><img class="footer_logo" src="../photo/LOGO.png" alt="無法顯示"></a>
+            <nav class="footer_nav">
+                <ul class="footer_bar">
+                    <li><a href="./news.html" class="news">NEWS</a></li>
+                    <li><a href="./about.html" class="about">ABOUT</a></li>
+                    <li><a href="./ATHLETES.html" class="athlete">ATHLETES</a></li>
+                    <li><a href="./MAG.html" class="mag">MAG</a></li>
+                    <li><a href="./WAG.html" class="wag">WAG</a></li>
+                    <li><a href="./shop.html" class="shop">SHOP</a></li>
+                </ul>
+            </nav>
+            <p class="footer_p">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。
+                參考資源:中華奧林匹克委員會。若有侵權疑慮，您可以私訊<a href="https://www.facebook.com/TibaMe/" target="_blank" >[緯育TibaMe]</a>，後續會由專人協助處理。</p>
+            <p class="footer_Copyright">GYMNASTICS&copy;All Rights Reserved</p>
+        </footer>
+        <script src="../JS/首頁/banner.js"></script>
+        <script src="../JS/首頁/navbar.js"></script>
+        <script src="../JS/首頁/MAG.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+        <script src="../JS/NEWS/top.js"></script>
+        <script src="../JS/js.js"></script>
+    </body>
+</html>

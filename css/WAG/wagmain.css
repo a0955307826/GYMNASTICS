@@ -1,0 +1,348 @@
+main.wag {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+@media (max-width: 565.98px) {
+    main.wag  {
+        margin-bottom: 50px;
+    }
+}
+
+main img.wag_banner {
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width:991.98px) {
+    main img.wag_banner {
+        height: auto;
+    }
+}
+
+
+main h1.wag_h1 {
+    color: #090C08;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    display: inline-block;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+@media (max-width: 991.98px) {
+    main h1.wag_h1 {
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+main h1.wag_h1::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    right: -70px;
+    top: 20px;
+    background-color: #090C08;
+}
+
+main h1.wag_h1::before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: -70px;
+    top: 20px;
+    background-color: #090C08;
+}
+
+@media (max-width: 1199.98px) {
+    main h1.wag_h1::before {
+        display: none;
+    }
+
+    main h1.wag_h1::after {
+        display: none;
+    }
+}
+
+main div.wag_big {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+main div.wag_tit {
+    text-align: center;
+    width: 170px;
+    height: 100px;
+    margin: auto;
+    background-color: rgba(167, 83, 73, 1);
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+main span.content_tit {
+    padding-top: 10px;
+    color: #333;
+    display: inline-block;
+    line-height: 1.6;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+main div.wag_big img {
+    position: absolute;
+    display: block;
+    height: auto;
+}
+
+
+main div.wag_big img.vt_mag {
+    top: 110px;
+    width: 450px;
+    height: 300px;
+    left: 4%;
+}
+
+@media (max-width: 1199.98px) {
+    main div.wag_big img.vt_mag  {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+main div.wag_big img.ub_mag {
+    top: 500px;
+    right: 4%;
+    width: 450px;
+    height: 300px;
+}
+
+@media (max-width: 1199.98px) {
+    main div.wag_big img.ub_mag  {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+main div.wag_big img.bb_mag {
+    top: 900px;
+    width: 450px;
+    height: 300px;
+    left: 4%;
+}
+
+@media (max-width: 1199.98px) {
+    main div.wag_big img.bb_mag  {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+main div.wag_big img.fx_mag {
+    top: 1300px;
+    width: 450px;
+    height: 300px;
+    right: 4%;
+}
+
+@media (max-width: 1199.98px) {
+    main div.wag_big img.fx_mag   {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+main div.wag_big div.linebox {
+    width: 0;
+    height: 0;
+    border-top: 300px solid #A73D1D;
+    border-left: 2px solid #A73D1D;
+    margin: auto;
+}
+
+main p.p_content1 {
+    width: 35%;
+    position: absolute;
+    right: 4%;
+    top: 110px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+main p.p_content2 {
+    width: 35%;
+    position: absolute;
+    left: 4%;
+    top: 500px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+main p.p_content3 {
+    width: 35%;
+    position: absolute;
+    right: 4%;
+    top: 900px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+main p.p_content4 {
+    width: 35%;
+    position: absolute;
+    left: 4%;
+    top: 1300px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+div.top {
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    left: 96%;
+    margin-bottom: 5px;
+}
+
+div.top:hover {
+    background-color: #aaa;
+    color: #090C08;
+}
+
+div.top p.top_home {
+    position: absolute;
+    font-size: 14px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1260px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 900px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 700px) {
+    div.top {
+        left: 90%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    div.top {
+        left: 88%;
+    }
+}
+
+@media (max-width: 450px) {
+    div.top {
+        left: 86%;
+    }
+}
+
+@media (max-width: 350px) {
+    div.top {
+        left: 83%;
+    }
+}
+
+div.wag_item {
+    display: none;
+}
+
+/* 991.98px */
+@media (max-width: 991.98px) {
+    main div.wag_big {
+        display: none;
+    }
+
+    div.wag_item {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    div.wag_container img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    div.wag_word {
+        width: 90%;
+        background-color: rgba(167, 83, 73, .8);
+        color: #fff;
+        font-family: 'Noto Sans TC', sans-serif;
+        letter-spacing: 2px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        bottom: 60px;
+        line-height: 1.6;
+        
+    }
+
+    div.wag_word p.wag_content {
+        margin-bottom: 0;
+    }
+
+    div.wag_word h2.wag_tit {
+        margin: 0;
+    }
+
+    div.wag_word span {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+}

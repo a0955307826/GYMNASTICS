@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #EFE6DD;
+}
+
+header.header {
+    background-color: #011B45;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+@media (max-width: 991.98px) {
+    header.header {
+        height: 80px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header.header {
+        height: 60px;
+    }
+}
+
+
+header.header img {
+    width: 120px;
+    height: 80px;
+    margin: 10px;
+}
+
+@media (max-width: 991.98px) {
+    header.header img {
+        width: 100px;
+        height: 70px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header.header img {
+        width: 80px;
+        height: 50px;
+    }
+}
+
+header.header label.menu_btn {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    /* background-color: black; */
+    opacity: 0;
+}
+
+header.header input#menu {
+    position: absolute;
+    opacity: 0;
+}
+
+@media (max-width: 767.98px) {
+    header.header label.menu_btn {
+        top: 10px;
+    }
+}
+
+header.header label.menu_btn div.line_top {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    
+}
+
+header.header label.menu_btn div.line_middle {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+}
+
+header.header label.menu_btn div.line_bottom {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    
+}
+
+/* 叉叉 */
+header.header label.menu_btn.block div.line_top {
+    top: 13px;
+    width: 35px;
+    height: 3px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    position: absolute;
+}
+
+header.header label.menu_btn.block div.line_middle {
+    display: none;
+}
+
+header.header label.menu_btn.block div.line_bottom {
+    top: 13px;
+    width: 35px;
+    height: 3px;
+    transform: rotate(-45deg);
+    background-color: #fff;
+    position: absolute;
+}
+
+header.header nav.nav_list ul.nav_bar {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+@media (max-width: 991.98px) {
+    header.header nav.nav_list ul.nav_bar {
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 64px;
+        left: -100%;
+        display: block;
+        transition: 0.5s;
+        background-color: rgba(1, 27, 69, .98);
+        text-align: center;
+    }
+
+    header.header input#menu:checked ~ nav.nav_list ul.nav_bar {
+        left: 0;
+    }
+
+    header.header label.menu_btn {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header.header nav.nav_list ul.nav_bar {
+        width: 100%;
+        height: calc(100vh - 60px);
+        position: absolute;
+        background-color: rgba(1, 27, 69, .98);
+        top: 44px;
+        left: -100%;
+        display: block;
+        transition: 0.5s;
+    }
+
+    header.header input#menu:checked ~ nav.nav_list ul.nav_bar  {
+        left: 0;
+    }
+
+    header.header label.menu_btn {
+        opacity: 1;
+    }
+}
+
+
+header.header nav.nav_list ul.nav_bar > li {
+    padding: 0 20px;
+}
+
+@media (max-width: 991.98px) {
+    header.header nav.nav_list ul.nav_bar > li  {
+        border-bottom: solid 1px #fff;
+        padding: 20px 35px;
+    }
+    
+    header.header nav.nav_list ul.nav_bar > li:last-child {
+        border-bottom: none;
+    }
+    
+    header.header label#menu:checked ~ nav.nav_list li  {
+        left: 0;
+    }
+}
+
+header.header nav.nav_list ul.nav_bar > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+header.header nav.nav_list ul.nav_bar > li > a.shop {
+    border-bottom: solid 3px #fff;
+}
+
+header.header nav.nav_list ul.nav_bar > li > a:hover {
+    border-bottom: solid 3px #fff;
+}

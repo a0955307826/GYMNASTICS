@@ -1,0 +1,97 @@
+footer.footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #011B45;
+    position: relative;
+    overflow: hidden;
+}
+
+footer.footer img.footer_logo{
+    width: 220px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+}
+
+footer.footer nav.footer_nav > ul.footer_bar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991.98px) {
+    footer.footer nav.footer_nav > ul.footer_bar {
+        display: none;
+    }
+}
+
+footer.footer nav.footer_nav > ul.footer_bar > li {
+    padding: 0 40px;
+}
+
+footer.footer nav.footer_nav > ul.footer_bar > li > a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+footer.footer nav.footer_nav > ul.footer_bar > li > a:hover {
+    border-bottom: solid 3px #f5f5f5;
+}
+
+footer.footer p.footer_p {
+    color: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1400px) {
+    footer.footer p.footer_p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    footer.footer p.footer_p {
+        width: 100%;
+    }
+}
+
+footer.footer p.footer_Copyright {
+    color: #f5f5f5;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+    border-top: solid 1px #f5f5f5;
+}
+
+footer p.footer_p a {
+    color: #f5f5f5;
+}
+
+footer.footer nav.footer_nav > ul.footer_bar > li > a.wag {
+    border-bottom: solid 3px #f5f5f5;
+}
+
+footer.footer nav.footer_nav > ul.footer_bar > li > a:hover {
+    border-bottom: solid 3px #f5f5f5;
+}

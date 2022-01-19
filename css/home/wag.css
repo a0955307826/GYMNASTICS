@@ -1,0 +1,564 @@
+section.wag {
+    width: 100%;
+    margin: 100px auto;
+    margin-top: 200px;
+    position: relative;
+    max-width: 1400px;
+}
+
+@media (max-width: 991.88px) {
+    section.wag {
+        display: none;
+    }
+}
+
+section.wag div.left_block {
+    background-color: #A75349;
+    width: 13%;
+    height: 550px;
+    margin-left: 5%;
+}
+
+
+section div.wag_word {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+@media (max-width: 1199.98px) {
+    section div.wag_word {
+        width: 50%;
+    }
+}
+
+section.wag h1.wag_h1 {
+    position: relative;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #090C08;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+section.wag h1.wag_h1::before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    background-color: #090C08;
+    right: 100px;
+    top: 20px;
+    display: inline-block;
+}
+
+section.wag h1.wag_h1::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    background-color: #090C08;
+    left: 100px;
+    top: 20px;
+    display: inline-block;
+}
+
+
+section.wag  p.wag_p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 2;
+    letter-spacing: 2px;
+    color: #090C08;
+}
+
+section.wag div.wag_button {
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #A75349;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    left: 0;
+    transition: .5s;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+    border: solid 2px black;
+}
+
+section.wag div.wag_button:hover {
+    box-shadow: none;
+    transition: .5s;
+}
+
+section.wag div.wag_item {
+    width: 90%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.wag div.wag_item a {
+    text-decoration: none;
+}
+
+section div.wag_item h2 {
+    color: #f5f5f5;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 120px;
+    left: -110px;
+    padding: 10px;
+    width: 250px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+section.wag div.wag_item div.wag_vt {
+    width: 170px;
+    height: 100%;
+    background-image: url(../../photo/women_four/vt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px #888;
+    transition: all 1s ease-in-out;
+    margin-right: 35px;
+    transform: skewX(-10deg);
+}
+
+
+section.wag div.wag_item div.wag_vt:hover {
+    transform: skewX(0deg);
+    transition: all 1s ease-in-out;
+    width: 400px;
+}
+
+@media (max-width: 1199.98px) {
+    section.wag div.wag_item div.wag_vt {
+        width: 150px;
+    }
+    section.wag div.wag_item div.wag_vt:hover {
+        width: 350px;
+    }
+}
+
+section div.wag_vt:hover h2 {
+    font-size: 24px;
+    transform: rotate(0deg);
+    left: 0px;
+    bottom: -20px;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    width: 100%;
+    background:#A75349;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+
+section.wag div.wag_item div.wag_ub {
+    width: 170px;
+    height: 100%;
+    background-image: url(../../photo/women_four/ub.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px #888;
+    margin-right: 35px;
+    transition: all 1s ease-in-out;
+    transform: skewX(-10deg);
+}
+
+
+
+section.wag div.wag_item div.wag_ub:hover {
+    transform: skewX(0deg);
+    transition: all 1s ease-in-out;
+    width: 400px;
+}
+
+@media (max-width: 1199.98px) {
+    section.wag div.wag_item div.wag_ub {
+        width: 150px;
+    }
+    section.wag div.wag_item div.wag_ub:hover {
+        width: 350px;
+    }
+}
+
+section div.wag_ub:hover h2 {
+    font-size: 24px;
+    transform: rotate(0deg);
+    left: 0px;
+    bottom: -20px;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    width: 100%;
+    background:#A75349;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+section.wag div.wag_item div.wag_bb {
+    width: 170px;
+    height: 100%;
+    background-image: url(../../photo/women_four/BB.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px #888;
+    margin-right: 35px;
+    transition: all 1s ease-in-out;
+    transform: skewX(-10deg);
+}
+
+
+
+section.wag div.wag_item div.wag_bb:hover {
+    transform: skewX(0deg);
+    transition: all 1s ease-in-out;
+    width: 400px;
+}
+
+
+@media (max-width: 1199.98px) {
+    section.wag div.wag_item div.wag_bb {
+        width: 150px;
+    }
+    section.wag div.wag_item div.wag_bb:hover {
+        width: 350px;
+    }
+}
+
+section div.wag_bb:hover h2 {
+    font-size: 24px;
+    transform: rotate(0deg);
+    left: 0;
+    bottom: -20px;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    width: 100%;
+    background:#A75349;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+section.wag div.wag_item div.wag_fx {
+    width: 170px;
+    height: 100%;
+    background-image: url(../../photo/women_four/FX.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px #888;
+    transition: all 1s ease-in-out;
+    transform: skewX(-10deg);
+}
+
+
+section.wag div.wag_item div.wag_fx:hover {
+    transform: skewX(0deg);
+    transition: all 1s ease-in-out;
+    width: 400px;
+}
+
+@media (max-width: 1199.98px) {
+    section.wag div.wag_item div.wag_fx {
+        width: 150px;
+    }
+    section.wag div.wag_item div.wag_fx:hover {
+        width: 350px;
+    }
+}
+
+section div.wag_fx:hover h2 {
+    font-size: 24px;
+    transform: rotate(0deg);
+    left: 0px;
+    bottom: -20px;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    width: 100%;
+    background:#A75349;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+/* 992px */
+
+@media (min-width: 992px) {
+    section.wag_item {
+        display: none;
+    } 
+}
+
+@media (max-width: 991.98px) {
+    section div.wag_word_item {
+        width: 95%;
+        margin: 0 auto;
+        
+        background-color: #A75349;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    
+    section div.wag_word_item h1.wag_h1 {
+        position: relative;
+        font-size: 36px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        letter-spacing: 2px;
+        margin: 0;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    section div.wag_word_item h1.wag_h1::before {
+        content: "";
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        right: -70px;
+        top: 20px;
+    }
+    
+    section div.wag_word_item h1.wag_h1::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        left: -70px;
+        top: 20px;
+    }
+    
+    section div.wag_word_item p.wag_p {
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Noto Sans TC', sans-serif;
+        line-height: 1.6;
+        letter-spacing: 2px;
+        color: #fff;
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    @media (max-width: 565.98px) {
+
+        section div.wag_word_item p.wag_p {
+            width: 100%;
+        }
+    }
+
+    
+    section div.wag_image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    section div.wag_img {
+        height: 250px;
+        width: calc((100% - 20px) / 2);
+        border: solid 1px black;
+        position: relative;
+    }
+
+    @media (max-width: 575.98px) {
+        section div.wag_img {
+            width: 100%;
+        }
+    }
+    
+    section div.wag_img h2 {
+        color: #fff;
+        letter-spacing: 2px;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        background-color: rgba(167, 83, 73, .7);
+    }
+    
+    section div.wag_img span {
+        color: #fff;
+        letter-spacing: 2px;
+        opacity: 1;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    @media (max-width: 565.98px) {
+    
+        section div.wag_word_item {
+            width: 95%;
+        }
+    }
+    
+    section div.wag_img_vt {
+        background-image: url(../../photo/women_four/vt.png);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+    
+    section div.wag_img_ub {
+        background-image: url(../../photo/women_four/ub.png);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+    
+    section div.wag_img_bb {
+        background-image: url(../../photo/women_four/BB.png);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+    
+    section div.wag_img_fx {
+        background-image: url(../../photo/women_four/FX.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    section div.wag_button {
+        color: #fff;
+        padding: 15px 30px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        background-color: #A75349;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        display: inline-block;
+        margin-bottom: 50px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: .5s;
+        border: solid 2px black;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+    }
+    
+    section div.wag_button:hover {
+        box-shadow: none;
+        transition: .5s;
+    }
+    
+    main div.equipment div.button {
+        font-size: 16px;
+        background-color: #A75349;
+        color: #f5f5f5;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        bottom: 10px;
+        border: solid 2px black;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+    }
+    
+}
+
+div.top {
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: solid 1px black;
+    left: 95%;
+}
+
+div.top:hover {
+    background-color: #aaa;
+    color: #090C08;
+}
+
+div.top p.top_home {
+    position: absolute;
+    font-size: 14px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1260px) {
+    div.top {
+        left: 94%;
+    }
+} 
+
+@media (max-width: 900px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 700px) {
+    div.top {
+        left: 90%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    div.top {
+        left: 88%;
+    }
+}
+
+@media (max-width: 450px) {
+    div.top {
+        left: 86%;
+    }
+}
+
+@media (max-width: 350px) {
+    div.top {
+        left: 83%;
+    }
+}

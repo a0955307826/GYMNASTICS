@@ -1,0 +1,279 @@
+main.athletes {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.banner h1::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #090C08;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+
+@media (max-width: 991.98px) {
+    .banner h1::after {
+        right: 20%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .banner h1::after {
+        right: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .banner h1::after {
+        right: -10%;
+    }
+}
+
+.banner h1::before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #090C08;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+@media (max-width: 991.98px) {
+    .banner h1::before {
+        left: 20%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .banner h1::before {
+        left: 10%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .banner h1::before {
+        left: -10%;
+    }
+}
+
+.athletes_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.athletes_top a {
+    display: inline-block;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+@media (max-width: 991.98px) {
+    .img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 619.98px) {
+    .img {
+        max-width: 500px;
+        height: 250px;
+    }
+}
+
+.img1 {
+    background-image: url(../../photo/athlete/45656_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img1:hover {
+    background-image: url(../../photo/men_six/PH.jpg);
+}
+
+.img2 {
+    background-image: url(../../photo/athlete/w1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2:hover {
+    background-image: url(../../photo/photohover.jpg);
+}
+
+.img3 {
+    background-image: url(../../photo/athlete/20170809211518535975.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3:hover {
+    background-image: url(../../photo/men_six/R.jpg);
+}
+
+.img4 {
+    background-image: url(../../photo/athlete/photo5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4:hover {
+    background-image: url(../../photo/men_six/PB.jpg);
+}
+
+.img5 {
+    background-image: url(../../photo/athlete/photo4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5:hover {
+    background-image: url(../../photo/men_six/HB2.jpg);
+}
+
+.img6 {
+    background-image: url(../../photo/athlete/photo6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6:hover {
+    background-image: url(../../photo/women_four/BB1.jpg);
+}
+
+.athletes_top h3 {
+    background-color: #f5f5f5;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    color: #090C08;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1.6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+@media (max-width: 1300px) {
+    .athletes_top h3 {
+        width: 40%;
+        font-size: 16px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+h3.equ1 {
+    display: none;
+}
+
+.img1:hover > h3.name, .img2:hover > h3.name, .img3:hover > h3.name, .img4:hover > h3.name, .img5:hover > h3.name, .img6:hover > h3.name {
+    display: none;
+}
+
+.img1:hover > h3.equ1, .img1:hover > h3.equ1, .img2:hover > h3.equ1, .img3:hover > h3.equ1, .img4:hover > h3.equ1, .img5:hover > h3.equ1, .img6:hover > h3.equ1 {
+    display: inline-block;
+    background-color: #333;
+    color: #f5f5f5;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1.6px;
+    width: 40%;
+}
+
+@media (max-width: 1300px) {
+    .img1:hover > h3.equ1, .img1:hover > h3.equ1, .img2:hover > h3.equ1, .img3:hover > h3.equ1, .img4:hover > h3.equ1, .img5:hover > h3.equ1, .img6:hover > h3.equ1 {
+        width: 50%;
+    }
+}
+
+div.top {
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    left: 96%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+div.top:hover {
+    background-color: #aaa;
+    color: #090C08;
+}
+
+div.top p.top_home {
+    position: absolute;
+    font-size: 14px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1260px) {
+    div.top {
+        left: 95%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 700px) {
+    div.top {
+        left: 90%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    div.top {
+        left: 88%;
+    }
+}
+
+@media (max-width: 450px) {
+    div.top {
+        left: 86%;
+    }
+}
+
+@media (max-width: 350px) {
+    div.top {
+        left: 83%;
+    }
+}

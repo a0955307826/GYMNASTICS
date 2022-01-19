@@ -1,0 +1,182 @@
+section.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section div.banner_slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+@keyframes event {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+section div.banner_slider img {
+    width: 100%;
+    height: 100%;
+    animation-name: event;
+    animation-duration: 1.5s;
+}
+
+
+section div.btn {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.banner div.btn span.btn_line {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    opacity: 1;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    section.banner div.btn span.btn_line {
+        width: 20px;
+        height: 20px;
+        margin: 0 20px;
+    }
+
+    section div.btn {
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    section.banner div.btn span.btn_line {
+        width: 20px;
+        height: 20px;
+    }
+
+    section div.btn {
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    section.banner div.btn span.btn_line {
+        width: 15px;
+        height: 15px;
+        margin: 0 10px;
+    }
+
+    section div.btn {
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    section.banner div.btn span.btn_line {
+        width: 15px;
+        height: 15px;
+        margin: 0 10px;
+    }
+
+    section div.btn {
+        bottom: 10px;
+    }
+}
+
+section.banner div.btn_item {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, .1);
+    width: 45px;
+    cursor: pointer;
+    border: solid 2px #fff;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    section.banner div.btn_item {
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    section.banner div.btn_item {
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    section.banner div.btn_item {
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    section.banner div.btn_item {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    section.banner div.btn_item {
+        width: 20px;
+    }
+}
+
+section.banner div.btn_item:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+section.banner p {
+    font-size: 35px;
+    color: #fff;
+    line-height: 0;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    section.banner p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    section.banner p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    section.banner p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    section.banner p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    section.banner p {
+        font-size: 20px;
+    }
+}
+
+section.banner div.right {
+    right: 0;
+}

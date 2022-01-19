@@ -1,0 +1,236 @@
+main.shop_container {
+    width: 1280px;
+    margin: 50px auto;
+    position: relative;
+}
+
+main div.shop_items {
+    display: inline-flex;
+    width: 100%;
+}
+
+main aside.left_bar {
+    padding: 20px;
+    width: 22%;
+    background-color: #1B568A;
+    margin-right: 20px;
+}
+
+main aside.left_bar a {
+    text-decoration: none;
+}
+
+main aside.left_bar a div {
+    display: inline-flex;
+}
+
+main aside.left_bar h2 {
+    color: #f5f5f5;
+    letter-spacing: 4px;
+    font-weight: 300;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 20px;
+}
+
+main aside.left_bar a div i.fa-caret-right {
+    line-height: 2;
+    padding: 0 10px;
+    color: #f5f5f5;
+    opacity: 0;
+    display: inline-block;
+}
+
+main aside.left_bar a div.vt i.fa-caret-right {
+    opacity: 1;
+}
+
+main aside.left_bar a div:hover i {
+    opacity: 1;
+}
+
+/* 產品名稱 */
+main div.shop_name {
+    width: 75%;
+    background-color: #1B568A;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+main div h3 {
+    color: #f5f5f5;
+    padding: 0 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+/* 產品圖片內容 */
+main div.product_container {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 75%;
+}
+
+main div.product_container div.photo_big {
+    width: 350px;
+    height: 350px;
+    background-image: url(../../圖片/器材/1597849822_7008.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px black;
+}
+
+main div.product_container div.photo_small {
+    width: 350px;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+main div.product_container div.photo_small1, div.photo_small2, div.photo_small3 {
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+}
+
+main div.product_container div.photo_small1 {
+    background-image: url(../../圖片/器材/1597849822_7008.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main div.product_container div.photo_small2 {
+    background-image: url(../../圖片/器材/1597849826_1623.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main div.product_container div.photo_small3 {
+    background-image: url(../../圖片/器材/1597849830_6442.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main h3.product_title {
+    color: #090C08;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    right: 430px;
+    top: 20px;
+}
+
+main ul {
+    position: absolute;
+    right: 280px;
+    top: 90px;
+    list-style-type: square;
+}
+
+main ul > li {
+    line-height: 2;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    color: #090C08;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+main div.button {
+    position: absolute;
+    right: 480px;
+    top: 320px;
+}
+
+main div.button a {
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #011B45;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    transition-duration: 0.5s;
+}
+
+main div.button a:hover {
+    color: #011B45;
+    background-color: #f5f5f5;
+    transition-duration: 0.5s;
+    border: solid 1px black;
+}
+
+div.top {
+    color: #090C08;
+    letter-spacing: 2px;
+    background-color: #aaa;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    left: 96%;
+    margin-bottom: 5px;
+}
+
+div.top p.top_home {
+    position: absolute;
+    font-size: 14px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1260px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 900px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 700px) {
+    div.top {
+        left: 90%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    div.top {
+        left: 88%;
+    }
+}
+
+@media (max-width: 450px) {
+    div.top {
+        left: 86%;
+    }
+}
+
+@media (max-width: 350px) {
+    div.top {
+        left: 83%;
+    }
+}
+

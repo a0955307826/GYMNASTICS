@@ -1,0 +1,411 @@
+main.news_content {
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+    max-width: 1400px;
+}
+
+main h1.content_h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #090C08;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 991.88px) {
+    main h1.content_h1 {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 575.88px) {
+    main h1.content_h1 {
+        font-size: 24px;
+        width: 85%;
+    }
+}
+
+main div.news_item {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991.98px) {
+    main div.news_item {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 575.88px) {
+    main div.news_item {
+        display: block;
+        text-align: center;
+    }
+}
+
+main p.content_date {
+    color: #090C08;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+main p.content_p {
+    width: 80%;
+    line-height: 2;
+    color:  #090C08;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    margin: 30px 0;
+    letter-spacing: 2px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 991.98px) {
+    main p.content_p {
+        width: 90%;
+        line-height: 2;
+    }
+}
+
+main div.enlarge {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+}
+
+@media screen and (max-width: 991.88px) {
+    main div.enlarge {
+        width: 90%;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    main div.enlarge {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+main div.picture1 {
+    background-image: url(../../photo/athlete/lee\ silver.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+main div.picture2 {
+    background-image: url(../../photo/men_six/PH.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+main div.picture3 {
+    background-image: url(../../photo/img4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+main div.large_item {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(23,23,23,.8);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+main div.large_item i {
+    position: relative;
+    font-size: 28px;
+    left: 12px;
+    top: 10px;
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+
+@media screen and (max-width: 991.98px) {
+    main div.social {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    main div.social {
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 991.88px) {
+    main div.social {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 575.88px) {
+    main div.social {
+        text-align: right;
+        margin-bottom: 10px;
+    }
+}
+
+main img.fb, img.ig, img.tw, img.yb {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+main img.fb {
+    width: 30px;
+}
+
+main img.ig {
+    width: 30px;
+}
+
+main img.tw {
+    width: 30px;
+}
+
+main img.yb {
+    width: 35px;
+}
+
+@media screen and (max-width: 991.88px) {
+    main img.fb {
+        width: 25px;
+    }
+    main img.ig {
+        width: 25px;
+    }
+    main img.tw {
+        width: 25px;
+    }
+    main img.yb {
+        width: 28px;
+    } 
+}
+
+@media screen and (max-width: 575.88px) {
+    main img.fb {
+        width: 20px;
+    }
+    main img.ig {
+        width: 20px;
+    }
+    main img.tw {
+        width: 20px;
+    }
+    main img.yb {
+        width: 23px;
+    } 
+}
+
+main div.tag_container {
+    display: flex;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 991.88px) {
+    main div.tag_container {
+        justify-content: center;
+        width: 100%;
+    }
+    
+}
+
+main div.tag_container div.tag1, div.tag2, div.tag3, div.tag4 {
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    color: #090C08;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    border: solid 1px #090C08;
+}
+
+@media screen and (max-width: 575.88px) {
+    main div.tag_container div.tag1, div.tag2, div.tag3, div.tag4 {
+        padding: 10px;
+        margin-right: 10px;
+    }
+}
+
+div.top {
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    left: 96%;
+    margin-bottom: 5px;
+}
+
+div.top:hover {
+    color: #090C08;
+    background-color: #aaa;
+}
+
+div.top p.top_home {
+    position: absolute;
+    font-size: 14px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1260px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 900px) {
+    div.top {
+        left: 92%;
+    }
+}
+
+@media (max-width: 700px) {
+    div.top {
+        left: 90%;
+    }
+}
+
+@media (max-width: 576.98px) {
+    div.top {
+        left: 88%;
+    }
+}
+
+@media (max-width: 450px) {
+    div.top {
+        left: 86%;
+    }
+}
+
+@media (max-width: 350px) {
+    div.top {
+        left: 83%;
+    }
+}
+
+div.breadcrumb {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+@media (max-width:991.98px) {
+    div.breadcrumb {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    div.breadcrumb {
+        margin-left: 3%;
+    }
+}
+
+div.breadcrumb ol.breadcrumb_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+div.breadcrumb ol.breadcrumb_list > li{
+    display: inline-block;
+    color: #090C08;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+div.breadcrumb ol.breadcrumb_list > li::before{
+    content: ">";
+    font-size: 18px;
+    color: #090C08;
+    margin: 0 10px;
+
+}
+
+div.breadcrumb ol.breadcrumb_list > li:first-child::before{
+    display: none;
+}
+
+
+
+div.breadcrumb ol.breadcrumb_list > li > a{
+    text-decoration: none;
+    display: inline-block;
+    color: #6290C3;
+}
+
+
+div.breadcrumb ol.breadcrumb_list > li > a:hover{
+    color: #0056b3;
+}
+
+.photo_banner {
+    position: relative;
+    background-color: black;
+    display: none;
+}
+
+.main_banner {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.block {
+    display: block;
+}
+
+.main_banner .photo_header {
+    font-size: 70px;
+    position: absolute;
+    left: 95%;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.main_banner .photo_header:hover {
+    color: #aaa;
+}
+
+.main_banner img {
+    width: 1500px;
+    height: 1000px;
+}

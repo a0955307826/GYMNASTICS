@@ -1,0 +1,206 @@
+section.about {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section div.about_banner {
+    max-width: 100%;
+    height: 450px;
+    border: solid 1px black;
+    background-image: url(../../photo/searchevent-sport.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 1199.98px) {
+    section div.about_banner {
+        border: transparent;
+        height: 250px;
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section div.about_banner {
+        background-image: none;
+    }
+}
+
+section.about a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+section.about div.word_background {
+    width: 580px;
+    height: 250px;
+    background-color: #222;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+@media screen and (max-width: 1199.98px) {
+    section.about div.word_background {
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.about div.word_background {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section.about div.word_background {
+        width: 90%;
+    }
+}
+
+
+section.about div.word_background div.tag {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 125px solid;
+    border-color: transparent transparent transparent #222;
+    right: -250px;
+}
+
+@media screen and (max-width: 1199.98px) {
+    section.about div.word_background div.tag {
+        display: none;
+    }
+}
+
+section.about div.word_background div.circle {
+    position: absolute;
+    background-color:#fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1199.98px) {
+    section.about div.word_background div.circle {
+        display: none;
+    }
+}
+
+section.about div.word_background h1.about_title {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    section.about div.word_background h1.about_title  {
+        margin-bottom: 15px;
+    }
+}
+
+section.about div.word_background h1.about_title::before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    left: -70px;
+    top: 20px;
+}
+
+section.about div.word_background h1.about_title::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    right: -70px;
+    top: 20px;
+}
+
+@media (max-width: 350px) {
+    section.about div.word_background h1.about_title::after {
+        right: -40px;
+    }
+
+    section.about div.word_background h1.about_title::before {
+        left: -40px;
+    }
+}
+
+section.about div.word_background p.about_word {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-left: 120px;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1199.98px) {
+    section.about div.word_background p.about_word  {
+        padding: 10px;
+        width: 70%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    section.about div.word_background p.about_word  {
+        text-align: center;
+    }
+}
+
+section.about div.word_background div.button_about {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: absolute;
+    color: #fff;
+    background-color: #1B568A;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    transition-duration: 0.5s;
+    right: 30px;
+    bottom: 30px;
+    border: solid 2px black;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 1199.98px) {
+    section.about div.word_background div.button_about {
+        padding: 10px 15px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+    }
+}
+
+section.about div.word_background:hover div.button_about {
+    transition-duration: 0.5s;
+    box-shadow: none;
+}
