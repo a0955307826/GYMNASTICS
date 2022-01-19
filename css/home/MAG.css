@@ -195,7 +195,7 @@ section.mag div.big_circle p.mag_p {
     }
 
     /* ph */
-    section.mag div.mag_ph {
+section.mag div.mag_ph {
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -211,14 +211,7 @@ section.mag div.big_circle p.mag_p {
     position: absolute;
     right: 30px;
     top: -80px;
-    }
-
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_ph {
-        width: 180px;
-        height: 180px;
-    }
-    }
+}
 
     section.mag div.ph_word {
     width: 100%;
@@ -236,44 +229,33 @@ section.mag div.big_circle p.mag_p {
 
     section.mag div.mag_ph p.ph_title {
     color: #fff;
-    font-size: 24px;
-    font-family: "Noto Sans TC", sans-serif;
-    font-weight: 300;
-    transition: all 0.5s ease-in-out;
-    letter-spacing: 2px;
-    position: absolute;
-    left: 50%;
-    top: 40px;
-    transform: translateX(-50%);
-    }
-
-    section.mag div.mag_ph p.ph {
-    color: #fff;
     font-size: 20px;
     font-family: "Noto Sans TC", sans-serif;
     font-weight: 300;
     transition: all 0.5s ease-in-out;
     letter-spacing: 2px;
     position: absolute;
-    top: 90px;
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+    }
+
+    section.mag div.mag_ph p.ph {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 80px;
     left: 15%;
     }
 
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_ph p.ph_title {
-        font-size: 20px;
-        top: 35px;
-    }
-    section.mag div.mag_ph p.ph {
-        font-size: 16px;
-        top: 80px;
-    }
-    }
-
     /* sr */
-    section.mag div.mag_r {
+section.mag div.mag_r {
     width: 180px;
-        height: 180px;
+    height: 180px;
     border-radius: 50%;
     background-image: url(../../photo/men_six/R2.jpg);
     background-repeat: no-repeat;
@@ -286,14 +268,7 @@ section.mag div.big_circle p.mag_p {
     position: absolute;
     right: 30px;
     bottom: -80px;
-    }
-
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_r {
-        width: 180px;
-        height: 180px;
-    }
-    }
+}
 
     section.mag div.r_word {
     width: 100%;
@@ -311,43 +286,32 @@ section.mag div.big_circle p.mag_p {
 
     section.mag div.mag_r p.r_title {
     color: #fff;
-    font-size: 24px;
-    font-family: "Noto Sans TC", sans-serif;
-    font-weight: 300;
-    transition: all 0.5s ease-in-out;
-    letter-spacing: 2px;
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
-    }
-
-    section.mag div.mag_r p.r {
-    color: #fff;
     font-size: 20px;
     font-family: "Noto Sans TC", sans-serif;
     font-weight: 300;
     transition: all 0.5s ease-in-out;
     letter-spacing: 2px;
     position: absolute;
-    top: 100px;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    }
+
+    section.mag div.mag_r p.r {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 80px;
     left: 50%;
     transform: translateX(-50%);
     }
 
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_r p.r_title {
-        font-size: 20px;
-        top: 40px;
-    }
-    section.mag div.mag_r p.r {
-        font-size: 16px;
-        top: 80px;
-    }
-    }
-
     /* vt */
-    section.mag div.mag_vt {
+section.mag div.mag_vt {
     width: 180px;
         height: 180px;
     border-radius: 50%;
@@ -363,43 +327,23 @@ section.mag div.big_circle p.mag_p {
     bottom: -80px;
     left: 50%;
     transform: translateX(-50%);
-    }
+}
 
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_vt {
-        width: 180px;
-        height: 180px;
-    }
-    }
-
-    section.mag div.vt_word {
+section.mag div.vt_word {
     width: 100%;
     height: 100%;
     background-color: #1b568a;
     opacity: 0;
     transition: all 0.5s ease-in-out;
     position: relative;
-    }
+}
 
-    section.mag div.vt_word:hover {
+section.mag div.vt_word:hover {
     transition: all 0.5s ease-in-out;
     opacity: 0.95;
-    }
+}
 
-    section.mag div.mag_vt p.vt_title {
-    color: #fff;
-    font-size: 24px;
-    font-family: "Noto Sans TC", sans-serif;
-    font-weight: 300;
-    transition: all 0.5s ease-in-out;
-    letter-spacing: 2px;
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
-    }
-
-    section.mag div.mag_vt p.vt {
+section.mag div.mag_vt p.vt_title {
     color: #fff;
     font-size: 20px;
     font-family: "Noto Sans TC", sans-serif;
@@ -407,24 +351,26 @@ section.mag div.big_circle p.mag_p {
     transition: all 0.5s ease-in-out;
     letter-spacing: 2px;
     position: absolute;
-    top: 100px;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+}
+
+section.mag div.mag_vt p.vt {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 80px;
     left: 50%;
     transform: translateX(-50%);
-    }
-
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_vt p.vt_title {
-        font-size: 20px;
-        top: 40px;
-    }
-    section.mag div.mag_vt p.vt {
-        font-size: 16px;
-        top: 80px;
-    }
-    }
+}
 
     /* pb */
-    section.mag div.mag_pb {
+section.mag div.mag_pb {
     width: 180px;
         height: 180px;
     border-radius: 50%;
@@ -439,14 +385,7 @@ section.mag div.big_circle p.mag_p {
     position: absolute;
     left: 30px;
     bottom: -80px;
-    }
-
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_pb {
-        width: 180px;
-        height: 180px;
-    }
-    }
+}
 
     section.mag div.pb_word {
     width: 100%;
@@ -464,38 +403,27 @@ section.mag div.big_circle p.mag_p {
 
     section.mag div.mag_pb p.pb_title {
     color: #fff;
-    font-size: 24px;
-    font-family: "Noto Sans TC", sans-serif;
-    font-weight: 300;
-    transition: all 0.5s ease-in-out;
-    letter-spacing: 2px;
-    position: absolute;
-    left: 50%;
-    top: 40px;
-    transform: translateX(-50%);
-    }
-
-    section.mag div.mag_pb p.pb {
-    color: #fff;
     font-size: 20px;
     font-family: "Noto Sans TC", sans-serif;
     font-weight: 300;
     transition: all 0.5s ease-in-out;
     letter-spacing: 2px;
     position: absolute;
-    top: 90px;
-    left: 20%;
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
     }
 
-    @media screen and (max-width: 1398.98px) {
-    section.mag div.mag_pb p.pb_title {
-        font-size: 20px;
-        top: 35px;
-    }
     section.mag div.mag_pb p.pb {
-        font-size: 16px;
-        top: 80px;
-    }
+    color: #fff;
+    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 80px;
+    left: 20%;
     }
 
     /* hb */
