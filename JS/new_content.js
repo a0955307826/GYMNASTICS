@@ -2,13 +2,16 @@ let block = document.getElementsByClassName('enlarge');
 let bigPhoto = document.getElementsByClassName('photo_banner');
 let none = document.getElementsByClassName('photo_header');
 let body = window.document.body;
+let width = window.innerWidth;
 
 // 點擊顯示大圖
-for(let i = 0; i < bigPhoto.length; i++) {
-    block[i].addEventListener('click', function() {
-        bigPhoto[i].classList.add('block');
-        body.style.backgroundColor = "rgba(0, 0, 0, .5)";
-    });
+if(width > 991.98) {
+    for(let i = 0; i < bigPhoto.length; i++) {
+        block[i].addEventListener('click', function() {
+            bigPhoto[i].classList.add('block');
+            body.style.backgroundColor = "rgba(0, 0, 0, .8)";
+        });
+    } 
 }
 
 // 點擊隱藏大圖
